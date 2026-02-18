@@ -1,42 +1,49 @@
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .header {
-    background-color: #0056b3;
-    color: white;
     text-align: center;
-    padding: 10px 0;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.card {
+    margin: 20px 0;
+    border: none;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
 }
 
 .button {
-    background-color: #007bff;
+    background-color: #28a745;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-
 .button:hover {
-    background-color: #0056b3;
-}
-
-h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
-}
-
-p {
-    font-family: 'Georgia', serif;
-    line-height: 1.6;
+    background-color: #218838;
 }
 
 .footer {
     text-align: center;
-    padding: 10px;
-    background-color: #f0f0f0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #6c757d;
 }
-
-/* Add other your component styles */
