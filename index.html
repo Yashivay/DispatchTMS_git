@@ -3,26 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap 5 Home Page</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/css/bootstrap.min.css" rel="stylesheet">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-5">
-        <h1>Welcome to Bootstrap 5</h1>
-        <p class="lead">This is a simple example of a Bootstrap 5 page.</p>
-    </header>
 
-    <main class="container mt-5">
-        <h2>About Bootstrap 5</h2>
-        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p>
-    </main>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cta">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <footer class="bg-light text-center py-3">
-        <p>&copy; 2026 Your Company</p>
-    </footer>
+<header id="hero" class="hero bg-dark text-white text-center d-flex align-items-center" style="height: 100vh;">
+  <div class="container">
+    <h1 class="display-4">Welcome to Dispatch TMS</h1>
+    <p class="lead">Your ultimate transportation management solution.</p>
+    <a class="btn btn-primary btn-lg" href="#cta">Get Started</a>
+  </div>
+</header>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/js/bootstrap.min.js"></script>
+<section id="features" class="py-5">
+  <div class="container">
+    <h2 class="text-center">Features</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Feature 1</h3>
+        <p>Description of feature 1.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Feature 2</h3>
+        <p>Description of feature 2.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Feature 3</h3>
+        <p>Description of feature 3.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center">Our Services</h2>
+    <p class="text-center">Description of services provided.</p>
+  </div>
+</section>
+
+<section id="how-it-works" class="py-5">
+  <div class="container">
+    <h2 class="text-center">How It Works</h2>
+    <p class="text-center">A simple explanation of the process.</p>
+  </div>
+</section>
+
+<section id="testimonials" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center">Testimonials</h2>
+    <p class="text-center">What our customers say.</p>
+  </div>
+</section>
+
+<section id="cta" class="py-5">
+  <div class="container text-center">
+    <h2>Join Us Today!</h2>
+    <a class="btn btn-primary btn-lg" href="#">Sign Up</a>
+  </div>
+</section>
+
+<footer class="footer bg-dark text-white text-center py-3">
+  <div class="container">
+    <p>&copy; 2023 Dispatch TMS. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
